@@ -46,6 +46,10 @@ nav a {
     justify-content: center;
     margin-top: 2rem;
     text-align: center;
+    border: 1px solid red;
+}
+.services {
+    border: 1px solid blue;
 }
 .services h1 {
     font-size: 2.5rem;
@@ -53,4 +57,18 @@ nav a {
 .services p {
     font-size: 1.5rem;
     margin-top: 1rem;
+}
+.services-img-cont {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    border: 1px solid green;
+}
+.services-img-cont .image {
+    border: 1px solid maroon;
+    width: 33vw;
+    height: auto;
+}
+.services-img-cont .image img {
+    width: 100%;
 }
