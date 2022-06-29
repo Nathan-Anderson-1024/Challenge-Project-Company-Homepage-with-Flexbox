@@ -175,3 +175,24 @@ input[type=text], select, textarea{
     display: table;
     clear: both;
   }
+  /* Footer */
+  footer {
+    height: 3rem;
+  }
+  .footer-container {
+    height: 3rem;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 3rem;
+  }
+  /* Copyright */
+ .copyright {
+    text-align: center;
+ }
+ .copyright p {
+    font-size: .75rem;
+ }
