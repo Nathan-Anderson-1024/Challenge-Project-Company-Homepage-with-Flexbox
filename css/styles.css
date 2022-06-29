@@ -189,6 +189,14 @@ input[type=text], select, textarea{
     flex-direction: row;
     height: 3rem;
   }
+  .social a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  .social a:hover {
+    color: blue;
+  }
   /* Copyright */
  .copyright {
     text-align: center;
