@@ -221,14 +221,32 @@ input[type=text], select, textarea{
         justify-content: center;
     }
     .image-text h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-bottom: 0.5rem;
         margin-top: 0;
     }
     .image-text p {
-        font-size: .5rem;
+        font-size: 1rem;
         margin-left: .5rem;
         margin-right: 0.5rem;
+    }
+    .services-img-cont {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .services-img-cont .image {
+        width: 100vw;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .services-img-cont .image img {
+        width: 100%;
     }
  }
  /* Query for tablets */
